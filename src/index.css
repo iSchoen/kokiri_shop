@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css?family=Eagle+Lake|Press+Start+2P|VT323');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.navbar-big {
+  margin: 0;
+  margin-top: 1vh;
+  font-size: 20px;
+  display: none;
+} 
+
+.navbar-small {
+  margin: 0;
+  margin-top: 1vh;
+  display: block;
+}
+
+ul.mui-dropdown__menu.mui--is-open.mui-dropdown__menu--right {
+  list-style: none;
+  position: absolute;
+  z-index: 10;
+  margin-top: 18px;
+  right: 15px;
+  background: white;
+  border: 2px solid black;
+  padding: 0 20px;
+}
+
+button.mui-btn.mui-btn--none.mui-btn--large {
+  border: none;
+  background: rgba(0, 0, 0, 0);
+}
+
+.dropdown-item {
+  font-size: 40px;
+  margin: 10px 10px;
+}
+
+.footer {
+  /* background: rgba(0, 0, 0, .8); */
+  /* color: white; */
+  margin-top: 10vh;
+}
+
+.footer-separator {
+  margin: 5px 0;
+}
+
+.footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+.footer-content {
+  padding-left: 50px;
+  font-size: 25px;
+}
+
+.home-page {
+  margin: 35% 0;
+}
+
+.title-font {
+    font-family: 'Press Start 2P', cursive;  
+   /* font-family: 'VT323', monospace;  */
+   /* font-family: 'Eagle Lake', cursive;  */
+   font-size: 4vw;
+}
+
+.subtitle-font {
+    font-family: 'Press Start 2P', cursive;  
+   /* font-family: 'VT323', monospace;  */
+   /* font-family: 'Eagle Lake', cursive;  */
+   margin-top: 0;
+   font-size: 2vw;
+}
+
+.title-link {
+  text-decoration: underline;
+}
+
+.separator {
+  height: 1px;
+  background: rgba(0, 0, 0, .2);
+  margin: 10px 0 0 0;
+}
+
+.about-image {
+  margin-top: 7%;
+}
+
+.about-image-caption {
+  font-size: 20px;
+}
+
+.about-paragraph {
+  margin-top: 5%;
+  font-size: 20px;
+}
+
+.contact-paragraph {
+  font-size: 20px;
+}
+
+.contact-list {
+  list-style: none;
+  font-size: 16px;
+}
+
+.contact-image {
+  margin-top: 10%;
+  position: relative;
+  z-index: -1;
+}
+
+div.col-sm-10 {
+  position: relative;
+  z-index: -1;
+}
+
+.blue {
+  color: blue;
+}
+
+.red {
+  color: red;
+}
+
+.yellow {
+  color: #f4c842;
+}
+
+.green {
+  color: green;
+}
+
+@media(min-width: 768px) {
+  .title-font {
+    font-size: 5vw;
+  }
+
+  .subtitle-font {
+    font-size: 3vw;
+  }
+
+  .navbar-big {
+    font-size: 20px;
+    display: block;
+  }
+
+  .navbar-small {
+    display: none;
+  }
+
+  .contact-paragraph {
+    font-size: 3vw;
+  }
+
+  .home-page {
+    margin: 23% 0;
+  }
+}
+
+@media(min-width: 992px) {
+  .footer-content {
+    font-size: 14px;
+  }
+}
+
+@media(min-width: 1200px) {
+  .title-font {
+    font-size: 3vw;
+  }
+
+  .home-page {
+    margin: 0;
+  }
+
+  .subtitle-font {
+    font-size: 1.5vw;
+  }
+
+  .contact-paragraph {
+    font-size: 26px;
+  }
+
+  .about-image {
+    margin-top: 15%;
+  }
+
+  .about-paragraph {
+    margin-top: 5%;
+  }
+
+  .about-row {
+    margin: 5% 0 13% 0;
+  }
+
+  .contact-image {
+    margin-top: -80px;
+  }
+
+  .navbar {
+
+  }
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+/* @media (min-width: @screen-sm-min) { ... } */
+
+/* Medium devices (desktops, 992px and up) */
+/* @media (min-width: @screen-md-min) { ... } */
+
+/* Large devices (large desktops, 1200px and up) */
+/* @media (min-width: @screen-lg-min) { ... } */
+
+
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
